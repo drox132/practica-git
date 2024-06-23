@@ -1,0 +1,9 @@
+para cofigurar por primera vez el git en tu local
+
+##primero ve la configuracion que tienes
+git confit --list
+
+para agregar mas configuraciones por ejemplo name or email del usuario 
+
+git config --global user.name "coloca el nombre"
+git config --global user.email "colocal@mail.com"

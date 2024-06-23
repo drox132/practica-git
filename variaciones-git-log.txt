@@ -1,0 +1,103 @@
+1. Mostrar un historial simple
+bash
+Copiar código
+git log
+Muestra el historial de commits de forma simple y básica.
+
+2. Mostrar un historial con formato en una sola línea por commit
+bash
+Copiar código
+git log --oneline
+Cada commit se muestra en una sola línea con el hash abreviado y el mensaje del commit.
+
+3. Mostrar un historial con gráficos de ramas
+bash
+Copiar código
+git log --graph
+Muestra un gráfico de las ramas y merges.
+
+4. Combinar gráficos y formato de una sola línea
+bash
+Copiar código
+git log --oneline --graph
+Combina el gráfico de ramas con el formato de una sola línea por commit.
+
+5. Mostrar el historial con estadísticas de cambios
+bash
+Copiar código
+git log --stat
+Incluye estadísticas de los archivos modificados, líneas agregadas y eliminadas.
+
+6. Mostrar diferencias completas entre commits
+bash
+Copiar código
+git log -p
+Muestra las diferencias completas (patches) entre cada commit y su predecesor.
+
+7. Limitar el número de commits mostrados
+bash
+Copiar código
+git log -n 5
+Muestra solo los últimos 5 commits (puedes cambiar el número).
+
+8. Mostrar commits de una rama específica
+bash
+Copiar código
+git log branch_name
+Muestra los commits de una rama específica (reemplaza branch_name por el nombre de la rama).
+
+9. Filtrar commits por autor
+bash
+Copiar código
+git log --author="Nombre del Autor"
+Muestra solo los commits realizados por un autor específico.
+
+10. Filtrar commits por mensaje
+bash
+Copiar código
+git log --grep="texto a buscar"
+Muestra solo los commits que contienen un texto específico en el mensaje del commit.
+
+11. Mostrar commits en un rango de fechas
+bash
+Copiar código
+git log --since="2023-01-01" --until="2023-12-31"
+Muestra los commits realizados entre las fechas especificadas.
+
+12. Mostrar commits que tocan un archivo específico
+bash
+Copiar código
+git log -- path/al/archivo
+Muestra solo los commits que han modificado el archivo especificado.
+
+13. Formato personalizado para los logs
+bash
+Copiar código
+git log --pretty=format:"%h - %an, %ar : %s"
+Permite personalizar el formato del log usando placeholders (%h para el hash abreviado, %an para el nombre del autor, %ar para la fecha relativa, %s para el mensaje del commit, etc.).
+
+14. Mostrar información adicional sobre los commits
+bash
+Copiar código
+git log --pretty=fuller
+Muestra información más detallada sobre cada commit, como la fecha de autor y de committer.
+
+15. Invertir el orden de los commits
+bash
+Copiar código
+git log --reverse
+Muestra los commits en orden cronológico inverso (del más antiguo al más reciente).
+
+16. Mostrar los nombres de las ramas y etiquetas
+bash
+Copiar código
+git log --decorate
+Incluye información sobre las ramas y etiquetas en los logs.
+
+Ejemplo combinando varias opciones
+bash
+Copiar código
+git log --oneline --graph --decorate --all
+Combina varias opciones para mostrar un historial compacto, con gráficos y decorado, de todas las ramas.
+
+Estas variaciones te permitirán personalizar la salida de git log para que se ajuste a tus necesidades específicas al trabajar con el historial de tu repositorio Gi

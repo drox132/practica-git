@@ -1,0 +1,26 @@
+Esquema del vídeo
+Abra una carpeta.
+Archivo > Abrir carpeta (Ctrl+K Ctrl+O)
+Utilice el Explorador de archivos para ver los archivos y subcarpetas de la carpeta.
+Ver > Explorador (Ctrl+Mayús+E)
+Instale el tiempo de ejecución Node.js para ejecutar código JavaScript.
+Encuentra Node.js para tu plataforma en https://nodejs.org
+Compruebe la instalación de su Node.js.
+En un terminal o símbolo del sistema, escriba node --version
+Cree un nuevo archivo.
+Archivo > nuevo archivo (Ctrl+N)
+Cree una sencilla aplicación de consola "Hola mundo" llamada .app.js
+IntelliSense proporciona sugerencias a medida que escribe.
+Formatear automáticamente el código fuente.
+Comando Formato de documento (Mayús+Alt+F)
+Activa el guardado automático.
+Archivo > guardado automático
+Visualice el terminal integrado.
+Ver terminal > (Ctrl+')
+Divida el terminal.
+Terminal dividido (Ctrl+Mayús+5)
+Cree un nuevo terminal.
+Crear nuevo terminal (Ctrl+Mayús+')
+Ejecute la aplicación.
+En el terminal integrado, escriba node app.js
+Siguiente video
